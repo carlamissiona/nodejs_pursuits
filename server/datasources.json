@@ -7,9 +7,9 @@
     "host": "localhost",
     "port": 3306,
     "database": "database_pursuits",
-    "password": "",
+    "password": "6jVRLiptlGGT0fWG",
     "name": "mysqldata",
-    "user": "root",
+    "user": "userKTA",
     "connector": "mysql"
   }
 }
