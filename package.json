@@ -20,7 +20,9 @@
     "loopback-connector-mysql": "^2.4.1",
     "loopback-datasource-juggler": "^2.39.0",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^2.0.0"
+    "strong-error-handler": "^2.0.0",
+    "morgan": "^1.7.0",
+    "object-assign": "4.1.0"
   },
   "devDependencies": {
     "eslint": "^3.17.1",
@@ -31,6 +33,6 @@
     "type": "",
     "url": ""
   },
-  "license": "UNLICENSED",
+  "license": "Copyright 2020 Allovanilla,  All rights reserved. ",
   "description": "openshiftlb"
 }
