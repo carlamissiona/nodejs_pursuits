@@ -1,0 +1,23 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqldata": {
+    // "host": "localhost",
+    // "port": 3306,
+    // "database": "database_pursuits",
+    // "password": "",
+    // "name": "mysqldata",
+    // "user": "root",
+    // "connector": "mysql"
+    
+    "host": "172.30.89.146",  
+    "port": 3306,
+    "database": "database_pursuits",
+    "password": "6jVRLiptlGGT0fWG",
+    "name": "mysqldata",
+    "user": "6jVRLiptlGGT0fWG",
+    "connector": "mysql"
+  }
+}

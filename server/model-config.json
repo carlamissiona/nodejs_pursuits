@@ -35,7 +35,7 @@
     "dataSource": "mysqldata",
     "public": false
   },
-  "assessment": {
+  "Assessment": {
     "dataSource": "mysqldata",
     "public": true
   }

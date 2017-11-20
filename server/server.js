@@ -7,15 +7,16 @@ var app = module.exports = loopback();
 
 
 
-app.use(loopback.token({
-    model: app.models.accessToken,
-    currentUserLiteral: 'me'
-}));
-var User = app.models.User;
-var TWO_WEEKS = 60 * 60 * 24 * 7 * 3;
+//app.use(loopback.token({
+//  model: app.models.accessToken,
+//currentUserLiteral: 'me'
+//}));
+// var User = app.models.User;
+// var TWO_WEEKS = 60 * 60 * 24 * 7 * 3;
 // var User = loopback.User;
 // app.model(User, { dataSource: 'mysqldata' });
-console.log(User); 
+//console.log(User); 
+
 // User.login({
 //   email: 'allovanilla@mail.com',           // must provide email or "username"
 //   password: 'nopenopass' ,
@@ -26,6 +27,14 @@ console.log(User);
 //   console.log(accessToken.created); // => 2013-12-20T21:10:20.377Z
 //   console.log(accessToken.userId);  // => 1
 // });
+
+// this is how we add mysql export data script
+//console.log( app.DataSource );
+
+//connector.execute('mysql.sql');
+// this is how we add mysql export data script
+
+  
 
 app.start = function() {
   // start the web server
