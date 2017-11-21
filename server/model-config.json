@@ -34,9 +34,5 @@
   "Role": {
     "dataSource": "mysqldata",
     "public": false
-  },
-  "assessment": {
-    "dataSource": "mysqldata",
-    "public": true
   }
 }
