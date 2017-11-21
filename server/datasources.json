@@ -4,12 +4,19 @@
     "connector": "memory"
   },
   "mysqldata": {
-    "host": "localhost",
+    // "host": "localhost",
+    // "port": 3306,
+    // "database": "database_pursuits",
+    // "password": "",
+    // "name": "mysqldata",
+    // "user": "root",
+    // "connector": "mysql"
+    "host": "172.30.89.146",  
     "port": 3306,
     "database": "database_pursuits",
-    "password": "",
+    "password": "6jVRLiptlGGT0fWG",
     "name": "mysqldata",
-    "user": "root",
+    "user": "6jVRLiptlGGT0fWG",
     "connector": "mysql"
     
   }
