@@ -1,0 +1,35 @@
+{
+  "name": "Interviews",
+  "plural": "Interviews",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "job": {
+      "type": "number",
+      "required": true
+    },
+    "online": {
+      "type": "boolean",
+      "required": true
+    },
+    "schedule": {
+      "type": "date",
+      "required": true
+    },
+    "user": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

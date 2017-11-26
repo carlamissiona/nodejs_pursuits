@@ -34,5 +34,57 @@
   "Role": {
     "dataSource": "mysqldata",
     "public": false
+  },
+  "Jobs": {
+    "dataSource": "mysqldata",
+    "public": true
+  },
+  "Accounts": {
+    "dataSource": "mysqldata",
+    "public": true
+  },
+  "JobSaved": {
+    "dataSource": "mysqldata",
+    "public": true
+  },
+  "JobsApplied": {
+    "dataSource": "mysqldata",
+    "public": true
+  },
+  "Interviews": {
+    "dataSource": "mysqldata",
+    "public": true
+  },
+  "AssessmentsTaken": {
+    "dataSource": "mysqldata",
+    "public": true
+  },
+  "Guilds": {
+    "dataSource": "mysqldata",
+    "public": true
+  },
+  "Service": {
+    "dataSource": "mysqldata",
+    "public": true
+  },
+  "ServiceTypes": {
+    "dataSource": "mysqldata",
+    "public": true
+  },
+  "PaymentTypes": {
+    "dataSource": "mysqldata",
+    "public": true
+  },
+  "Posts": {
+    "dataSource": "mysqldata",
+    "public": true
+  },
+  "Comments": {
+    "dataSource": "mysqldata",
+    "public": true
+  },
+  "Connections": {
+    "dataSource": "mysqldata",
+    "public": true
   }
 }

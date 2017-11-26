@@ -14,6 +14,7 @@ var app = module.exports = loopback();
 //  model: app.models.accessToken,
 //currentUserLiteral: 'me'
 //}));
+
 // var User = app.models.User;
 // var TWO_WEEKS = 60 * 60 * 24 * 7 * 3;
 // var User = loopback.User;

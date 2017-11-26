@@ -1,0 +1,35 @@
+{
+  "name": "Connections",
+  "plural": "Connections",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "user": {
+      "type": "number",
+      "required": true
+    },
+    "connected_to": {
+      "type": "number",
+      "required": true
+    },
+    "isPeers": {
+      "type": "boolean",
+      "required": true
+    },
+    "isClient": {
+      "type": "number",
+      "required": true
+    },
+    "isFollowing": {
+      "type": "boolean",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

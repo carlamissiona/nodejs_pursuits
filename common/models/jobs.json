@@ -1,0 +1,72 @@
+{
+  "name": "Jobs",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "string",
+      "required": true
+    },
+    "vacancy": {
+      "type": "number"
+    },
+    "company": {
+      "type": "number",
+      "required": true
+    },
+    "qualification": {
+      "type": "string",
+      "required": true
+    },
+    "years_exp": {
+      "type": "number",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "date_expire": {
+      "type": "date",
+      "required": true
+    },
+    "minimum_education": {
+      "type": "string",
+      "required": true
+    },
+    "salary": {
+      "type": "string",
+      "required": true
+    },
+    "emp_type": {
+      "type": "string",
+      "required": true
+    },
+    "work_duties": {
+      "type": "string",
+      "required": true
+    },
+    "benefits": {
+      "type": "string",
+      "required": true
+    },
+    "may_telecommute": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Guilds",
+  "plural": "Guilds",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "user": {
+      "type": "number",
+      "required": true
+    },
+    "desc": {
+      "type": "string"
+    },
+    "rank": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "Members": {
+      "type": "hasMany",
+      "model": "Accounts",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

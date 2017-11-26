@@ -4,7 +4,6 @@
     "connector": "memory"
   },
   "mysqldata": {
-    
     "host": "172.30.89.146",  
     "port": 3306,
     "database": "database_pursuits",
@@ -12,6 +11,5 @@
     "name": "mysqldata",
     "user": "6jVRLiptlGGT0fWG",
     "connector": "mysql"
-    
   }
 }

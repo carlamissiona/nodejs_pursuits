@@ -1,0 +1,114 @@
+{
+  "name": "Accounts",
+  "plural": "Accounts",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fname": {
+      "type": "string",
+      "required": true
+    },
+    "lname": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "bdate": {
+      "type": "date",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "briefshout": {
+      "type": "string",
+      "required": true
+    },
+    "picprofile": {
+      "type": "string"
+    },
+    "guild": {
+      "type": "number"
+    },
+    "education": {
+      "type": "string"
+    },
+    "work_experience": {
+      "type": "string"
+    },
+    "hire_score": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    },
+    "following": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "posted": {
+      "type": "hasMany",
+      "model": "Posts",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "applications": {
+      "type": "hasMany",
+      "model": "JobsApplied",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "interviews": {
+      "type": "hasMany",
+      "model": "Interviews",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "jobSaveds": {
+      "type": "hasMany",
+      "model": "JobSaved",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    },
+    "connections": {
+      "type": "hasOne",
+      "model": "Connections",
+      "foreignKey": ""
+    },
+    "examsTaken": {
+      "type": "hasMany",
+      "model": "AssessmentsTaken",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
